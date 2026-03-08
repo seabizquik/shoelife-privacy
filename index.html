@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShoeLife — Privacy Policy</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: #f9f9f9;
+      color: #1a1a1a;
+      line-height: 1.7;
+    }
+
+    header {
+      background: #5C00FA;
+      color: #fff;
+      padding: 48px 24px 36px;
+      text-align: center;
+    }
+
+    header h1 { font-size: 2rem; font-weight: 700; letter-spacing: -0.5px; }
+    header p  { margin-top: 6px; opacity: 0.8; font-size: 0.95rem; }
+
+    main {
+      max-width: 720px;
+      margin: 48px auto;
+      padding: 0 24px 64px;
+    }
+
+    h2 {
+      font-size: 1.15rem;
+      font-weight: 600;
+      margin-top: 40px;
+      margin-bottom: 10px;
+      color: #5C00FA;
+    }
+
+    p { margin-bottom: 14px; }
+
+    ul {
+      margin: 10px 0 14px 20px;
+    }
+
+    ul li { margin-bottom: 6px; }
+
+    .highlight {
+      background: #f0e6ff;
+      border-left: 3px solid #5C00FA;
+      padding: 14px 18px;
+      border-radius: 4px;
+      margin: 24px 0;
+    }
+
+    footer {
+      text-align: center;
+      font-size: 0.85rem;
+      color: #888;
+      padding: 32px 24px;
+      border-top: 1px solid #e5e5e5;
+    }
+
+    a { color: #5C00FA; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>ShoeLife</h1>
+  <p>Privacy Policy</p>
+</header>
+
+<main>
+
+  <div class="highlight">
+    <strong>The short version:</strong> ShoeLife stores all your data on your device only. We do not collect, transmit, or sell any personal information.
+  </div>
+
+  <p><strong>Effective date:</strong> March 8, 2026<br>
+  <strong>Developer:</strong> Sean Beld<br>
+  <strong>Contact:</strong> <a href="mailto:seanbeld@gmail.com">seanbeld@gmail.com</a></p>
+
+  <h2>What ShoeLife Does</h2>
+  <p>ShoeLife is an iOS app that tracks the lifespan of your athletic and casual footwear. It connects to Apple Health to read your workout history, step counts, and biomechanics data to estimate how much life remains in each pair of shoes.</p>
+
+  <h2>Data Stored On Your Device</h2>
+  <p>All data ShoeLife creates or reads stays on your iPhone in Apple's SwiftData (local database). This includes:</p>
+  <ul>
+    <li><strong>Shoe records</strong> — brand, model, size, purchase date, photos you add</li>
+    <li><strong>Activity logs</strong> — distance, duration, surface type, timestamps</li>
+    <li><strong>Apple Health data</strong> — workouts, step counts, walking speed, step length, gait asymmetry, cadence, and body metrics (weight, height) read to calculate wear estimates</li>
+    <li><strong>App preferences</strong> — sync state stored in local device storage (UserDefaults)</li>
+  </ul>
+
+  <h2>Health Data</h2>
+  <p>ShoeLife requests read-only access to Apple Health. It reads:</p>
+  <ul>
+    <li>Workout sessions (to auto-log shoe activities)</li>
+    <li>Step counts and walking/running metrics (to estimate wear)</li>
+    <li>Body mass and height (to adjust wear calculations for body weight)</li>
+    <li>Gait metrics — walking speed, step length, asymmetry percentage, double support time, steadiness, vertical oscillation, ground contact time, cadence</li>
+  </ul>
+  <p>ShoeLife <strong>never writes to Apple Health</strong>. All health data is used solely to calculate shoe wear estimates and is never transmitted off your device.</p>
+
+  <h2>Location Data</h2>
+  <p>ShoeLife may request access to your location to automatically detect the surface type you are on (trail, road, track, indoor gym) so that wear calculations are more accurate. Location data is used in real time and is not stored beyond the current session. It is never transmitted off your device.</p>
+
+  <h2>Photos</h2>
+  <p>ShoeLife accesses your photo library only when you explicitly choose to add a photo to a shoe profile. Photos are stored locally inside the app's database and are not uploaded or shared anywhere.</p>
+
+  <h2>Data We Do Not Collect</h2>
+  <ul>
+    <li>We do not collect analytics or usage data</li>
+    <li>We do not use advertising SDKs or tracking frameworks</li>
+    <li>We do not have a server, backend, or account system</li>
+    <li>We do not share any data with third parties</li>
+    <li>We do not sell data</li>
+  </ul>
+
+  <h2>Third-Party Services</h2>
+  <p>ShoeLife does not integrate any third-party analytics, advertising, or data collection services. The only external framework used is Apple's HealthKit, governed by Apple's own privacy policy.</p>
+
+  <h2>Children's Privacy</h2>
+  <p>ShoeLife is not directed at children under 13. We do not knowingly collect information from children.</p>
+
+  <h2>Deleting Your Data</h2>
+  <p>All data is stored locally on your device. To delete all ShoeLife data, simply delete the app from your iPhone. You can also revoke Apple Health permissions at any time from the Health app under Sharing → Apps.</p>
+
+  <h2>Changes to This Policy</h2>
+  <p>If we make material changes to this policy, we will update the effective date above. Continued use of the app after changes constitutes acceptance of the updated policy.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about privacy? Reach out at <a href="mailto:seanbeld@gmail.com">seanbeld@gmail.com</a>.</p>
+
+</main>
+
+<footer>
+  &copy; 2026 Sean Beld &mdash; ShoeLife &mdash; All rights reserved
+</footer>
+
+</body>
+</html>
